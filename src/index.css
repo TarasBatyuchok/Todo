@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background-image:url('./img/kelly-sikkema-dgVSuJu58C0-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  
+  height: 100vh;
+  padding-top: 30px; 
+}
+
+.wrapper{
+  width: 42%;
+  margin: 0 auto;
+}
