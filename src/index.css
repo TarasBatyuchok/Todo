@@ -5,7 +5,7 @@ body {
 }
 
 .container{
-  background-image:url('./img/kelly-sikkema-dgVSuJu58C0-unsplash.jpg');
+  background-image:url('../assets/img/kelly-sikkema-dgVSuJu58C0-unsplash.jpg');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
