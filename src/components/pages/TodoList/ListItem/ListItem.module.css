@@ -1,0 +1,126 @@
+.listContainer{
+    padding: 7px 10px;
+
+    height: 80%;
+    
+    background: rgba( 255, 254, 254, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.0px );
+    -webkit-backdrop-filter: blur( 1.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: 0.1s;
+
+
+    
+}
+
+/* list */
+.ListItem{
+    list-style: none;
+  
+    font-size: 20px;
+    font-weight: bold;
+
+    background: rgba( 255, 255, 255, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+    padding: 10px 10px;
+}
+
+
+.text{
+    font-family: 'Poppins', sans-serif;
+    color: #0b2554;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.text:hover{
+    color:white;
+
+}
+
+/* Btn-remove */
+
+
+.ContainerForBtn{
+    width: 100px;
+    height: 100%;
+   
+     display: flex;
+     justify-content:space-between ;
+}
+
+.BtnRemoveList{
+
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+
+    background: rgba( 255, 255, 255, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    font-size: 20px;
+    text-align: center;
+    align-items:center;
+    
+
+    color: #29afdc;
+    transition: 0.5s;
+    
+}
+
+.BtnRemoveList:hover{
+    width: 43px;
+    background-color: #0b2554;
+    color:honeydew;
+    
+}
+
+.BtnAddList{
+
+
+   
+
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+
+    background: rgba( 255, 255, 255, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    font-size: 20px;
+    text-align: center;
+    align-items:center;
+    padding: 0;
+
+    color:#29afdc;
+    transition: 0.5s;
+}
+
+
+.BtnAddList:hover{
+    width: 43px;
+    background-color: #0b2554;
+    color:honeydew;
+}
+
+

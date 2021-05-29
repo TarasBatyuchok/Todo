@@ -1,0 +1,84 @@
+.containerForForm{
+
+    height: 10%;
+    background: rgba( 255, 254, 254, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+
+
+
+.inputForm{
+    width: 80%;
+    height: 40px;
+
+    font-family: 'Poppins', sans-serif;
+    color: #0b2554;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    padding-left: 10px;
+    background: rgba( 255, 255, 255, 0.40 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+.addList{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+
+    background: rgba( 255, 254, 254, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.0px );
+    -webkit-backdrop-filter: blur( 1.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.addList:hover {
+    color: #0b2554;;
+    text-decoration: none;
+  }
+
+.removeForm{
+    width: 70px;
+    height: 50px;
+    border-radius: 100px;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+
+    background: rgba( 255, 254, 254, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.0px );
+    -webkit-backdrop-filter: blur( 1.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.removeForm:hover {
+    color: #0b2554;;
+    text-decoration: none;
+  }

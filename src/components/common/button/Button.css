@@ -6,14 +6,17 @@
    padding: 15px 45px;
    text-align: center;
    text-transform: uppercase;
+   
    transition: 0.5s;
    background-size: 200% auto;
    color: #29afdc; 
-   font-size: 10px;           
+   font-size: 14px;           
    /* box-shadow: 0 0 20px #eee; */
    border-radius: 10px;
    border-style: none;
    display: block;
+
+   cursor: pointer;
  }
 
  .buttonList:hover {
@@ -33,11 +36,14 @@
    transition: 0.5s;
    background-size: 200% auto;
    font-family: 'Poppins', sans-serif;
+   font-size: 14px;
    color: #29afdc;            
    /* box-shadow: 0 0 20px #eee; */
    border-radius: 10px;
    border-style: none;
    display: block;
+
+   cursor: pointer;
  }
 
  .buttonUsers:hover {

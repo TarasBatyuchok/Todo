@@ -1,9 +1,14 @@
 .container{
-    background-color: blue;
+    
     width: 60%;
     height: 80vh;
-    margin:40px auto;
+    margin:20px auto;
     text-align: center;
+    padding:5px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     
 
@@ -13,4 +18,7 @@
     -webkit-backdrop-filter: blur( 9.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+
+    
 }

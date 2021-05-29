@@ -1,5 +1,11 @@
 import React from 'react'
+
+import UserItem from './UserItem/UserItem'
+
+
 import classes from "./UserContainer.module.css"
+
+ 
 
 
 const UserContainer = ()=>{
@@ -8,8 +14,8 @@ const UserContainer = ()=>{
     return(
         
         <div className={classes.container}>
-            <h2>GOOD</h2>
-            //add one component UserItem
+            <h2 className={classes.container_titel}>Users</h2>
+            <UserItem/>
         </div>
         
     )
