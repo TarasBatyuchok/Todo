@@ -6,10 +6,12 @@ const UserContainer = ()=>{
 
 
     return(
+        
         <div className={classes.container}>
-            <h1>GOOD bye</h1>
+            <h2>GOOD</h2>
             //add one component UserItem
         </div>
+        
     )
 }
 

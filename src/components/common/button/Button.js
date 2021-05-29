@@ -4,10 +4,9 @@ import "./Button.css"
 const Button = ({buttonText, className, onClick, ...props}) => {
 
     return(
-        <button
-            className={className}
-            onClick={onClick}
-        > {buttonText}</button>
+        <button className={className} onClick={onClick}> 
+        {buttonText}
+        </button>
     )
 
 }
