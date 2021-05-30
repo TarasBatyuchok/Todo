@@ -16,6 +16,7 @@ const AddItem = ({setAddItem, handleInputChange,inputValue, handleTaskAdd, handl
                 onChange={(e)=> handleInputChange(e.target.value)}
 
             />
+        <span>
             <button
                 className={classes.addList}
                 onClick={handleTaskAdd}
@@ -28,6 +29,7 @@ const AddItem = ({setAddItem, handleInputChange,inputValue, handleTaskAdd, handl
             >
                 Remove
             </button>
+        </span>
         </div>
     )
 

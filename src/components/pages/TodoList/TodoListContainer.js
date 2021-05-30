@@ -85,6 +85,7 @@ const TodoListContainer = () => {
                 handleTaskAdd={handleTaskAdd}
                 handleRemoveAddItem={handleRemoveAddItem}
             />}
+            <ul className={classes.listContainer} >
             {receivedData.map((item, index) =>
                 <ListItem
                     key={index}
@@ -95,6 +96,8 @@ const TodoListContainer = () => {
                     markTaskDone={markTaskDone}
                     markTaskTodo={markTaskTodo}
                 />)}
+            </ul>
+
 
         </div>
     )

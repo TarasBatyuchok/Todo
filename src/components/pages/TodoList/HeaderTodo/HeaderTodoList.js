@@ -11,8 +11,10 @@ const HeaderTodoList= ({setAddItem}) =>{
     return(
     <div className={classes.headerConteiner}>
         <h1 className={classes.titleHeader}>Todo List</h1>
-        <button className={classes.btnHeader} onClick={()=>setAddItem(true)}>+</button>
-        <button className={classes.btnHeader} onClick={()=>setAddItem(false)}>-</button>
+      <span>
+        <button className={classes.btnHeader} onClick={()=>setAddItem(true)}>Hide</button>
+        <button className={classes.btnHeader} onClick={()=>setAddItem(false)}>Show</button>
+      </span>
         {/*<button className={classes.btnHeader} onClick={handleCLick}>+</button>*/}
     </div>
   )

@@ -11,24 +11,24 @@ const ListItem = ({title, index, status, markTaskDone, deleteTask, markTaskTodo}
 
             <div className={classes.ContainerForBtn}>
                 <button
-                    className={classes.BtnRemoveList}
+                    className={classes.BtnRemove}
                     onClick={() =>  deleteTask(index) }
                 >
-                    remove
+                    Delete
                 </button>
 
                 <button
-                    className={classes.BtnAddList}
+                    className={classes.BtnDone}
                     onClick={() => markTaskDone(index)}
                 >
-                    done
+                    Done
                 </button>
 
                 <button
-                    className={classes.BtnAddList}
+                    className={classes.BtnAdd}
                     onClick={() => markTaskTodo(index)}
                 >
-                    todo
+                    Stop
                 </button>
             </div>
         </li>
