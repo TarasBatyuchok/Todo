@@ -2,12 +2,9 @@ body {
   margin: 0;
   padding: 0;
   
-  box-sizing: border-box;
+  
   background: #000046; 
   background: -webkit-linear-gradient(to right, #000046, #1cb5e0); 
   background: linear-gradient(to right, #000046, #1cb5e0); 
-  
-
- 
 }
 
