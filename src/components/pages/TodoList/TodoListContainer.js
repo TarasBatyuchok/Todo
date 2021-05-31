@@ -22,10 +22,16 @@ const TodoListContainer = () => {
     const [render, setRender] = useState(true)
     const [inputValue, setInputValue] = useState('')
 
-    const deleteTask = (index) => {
-        receivedData.splice(index, 1)
-        setReceivedData(receivedData)
-        setRender(!render)
+    const deleteTask = (taskIndex) => {
+        const newArr = receivedData.filter((item, index) => index!==taskIndex)
+        setReceivedData(newArr)
+
+
+        // receivedData.splice(index, 1)
+        // setReceivedData(receivedData)
+        // setRender(!render)
+
+        // setReceivedData(receivedData.filter((item, index) => index!==taskIndex))
     }
 
     const markTaskDone = (listIndex) => {
