@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 
-import Headre from './HeaderTodo/HeaderTodoList'
+import Header from './HeaderTodo/HeaderTodoList'
 import ListItem from './ListItem/ListItem'
 import classes from "./TodoList.module.css"
 import AddItem from "./FormForAddList/FormForAddLIst";
@@ -84,7 +84,7 @@ const TodoListContainer = () => {
 
     return (
         <div className={classes.container}>
-            <Headre setAddItem={setAddItem}/>
+            <Header setAddItem={setAddItem}/>
             {addItem && <AddItem
                 inputValue={inputValue}
                 handleInputChange={handleInputChange}

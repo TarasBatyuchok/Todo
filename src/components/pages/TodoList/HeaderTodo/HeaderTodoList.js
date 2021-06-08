@@ -12,8 +12,8 @@ const HeaderTodoList= ({setAddItem}) =>{
     <div className={classes.headerConteiner}>
         <h1 className={classes.titleHeader}>Todo List</h1>
       <span>
-        <button className={classes.btnHeader} onClick={()=>setAddItem(true)}>Hide</button>
-        <button className={classes.btnHeader} onClick={()=>setAddItem(false)}>Show</button>
+        <button className={classes.btnHeader} onClick={()=>setAddItem(true)}>Show</button>
+        <button className={classes.btnHeader} onClick={()=>setAddItem(false)}>Hide</button>
       </span>
         {/*<button className={classes.btnHeader} onClick={handleCLick}>+</button>*/}
     </div>

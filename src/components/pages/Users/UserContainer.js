@@ -49,7 +49,7 @@ const UserContainer = ()=>{
                 />)}
             </ul>
 
-            {/*<UserItem />*/}
+          
             { showInfo && <UserInfo user={users[infoIndex]}/>}
         </div>
 

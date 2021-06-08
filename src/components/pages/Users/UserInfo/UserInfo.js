@@ -7,11 +7,10 @@ const UserInfo = ({user}) =>{
     console.log(user)
  return(
      <ul className={classes.UserInfo}>
-       <p>Name: {user.name}</p>
-       <p>Username: {user.username}</p>
-       <p>Email: {user.email}</p>
-       <p>Company:</p>
-       <p>Company name: {user.company.name}</p>
+       <li>Name: {user.name}</li>
+       <li>Username: {user.username}</li>
+       <li>Email: {user.email}</li>  
+       <li>Company: {user.company.name}</li>
      </ul>
  )
 }

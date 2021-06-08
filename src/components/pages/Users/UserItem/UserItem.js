@@ -6,7 +6,7 @@ const UserItem = ({name, index, handleDelete, showUserInfo}) => {
 
 
   return (
-    // <ul className={classes.UsersWraper}>
+   
       <li className={classes.User} key={index}>
           {name}
         <span>
@@ -24,7 +24,7 @@ const UserItem = ({name, index, handleDelete, showUserInfo}) => {
           </button>
         </span>
       </li>
-    // </ul>
+    
   );
 };
 
