@@ -6,6 +6,7 @@ import UserContainer from "./components/pages/Users/UserContainer";
 import TodoListContainer from "./components/pages/TodoList/TodoListContainer";
 
 const App = () => {
+
     return (
             <BrowserRouter>
                 <Navbar/>
@@ -15,6 +16,7 @@ const App = () => {
                 </Switch>
 
             </BrowserRouter>
+
     );
 }
 
