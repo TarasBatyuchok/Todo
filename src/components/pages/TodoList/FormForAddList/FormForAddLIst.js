@@ -1,7 +1,7 @@
 import React from 'react';
 
 import classes from "./FormForAdd.module.css"
-import ListItem from "../ListItem/ListItem";
+
 
 
 const AddItem = ({setAddItem, handleInputChange,inputValue, handleTaskAdd, handleRemoveAddItem} ) => { //AddItem

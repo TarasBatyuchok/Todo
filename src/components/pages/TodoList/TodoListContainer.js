@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, {useState} from 'react'
 
 import Header from './HeaderTodo/HeaderTodoList'
 import ListItem from './ListItem/ListItem'
@@ -19,7 +19,7 @@ const mockData = [
 const TodoListContainer = () => {
     const [addItem, setAddItem] = useState(false)
     const [receivedData, setReceivedData] = useState(mockData)
-    const [render, setRender] = useState(true)
+    // const [render, setRender] = useState(true)
     const [inputValue, setInputValue] = useState('')
 
     const deleteTask = (taskIndex) => {

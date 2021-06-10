@@ -2,20 +2,31 @@ import React, {useEffect, useState} from 'react'
 import UserItem from './UserItem/UserItem'
 import UserInfo from './UserInfo/UserInfo'
 import classes from "./UserContainer.module.css"
+
+// redux
 import {UserAPI} from "../../API/userAPI";
+import { useDispatch, useSelector } from 'react-redux';
+
+import fetchUsers from "../../../redux/userReducer/userAction";
 
  
 
 
 const UserContainer = ()=>{
-    const [users, setUsers] = useState([])
+    const stateUsers = useSelector(store => store.userReducer.users)
+    console.log(stateUsers)
+
+    const dispatch = useDispatch()
+
+    const [users, setUsers] = useState(stateUsers)
     const [showInfo, setShowInfo] = useState(false)
     const [infoIndex, setInfoIndex] = useState(null)
 
+    const getUsers = ()=> dispatch(fetchUsers())
+    
+
     useEffect(()=>{
-        UserAPI.getUsers()
-            .then(res => setUsers(res.data))
-            .catch(err => console.log(err))
+        getUsers();
     },[])
 
     const handleDelete = (userIndex)=>{
