@@ -15,7 +15,6 @@ const App = () => {
                     <Route exact path={Routes.TODOLIST} component={TodoListContainer}/>
                     <Route exact path={Routes.USERS} component={UserContainer}/>
                 </Switch>
-
             </BrowserRouter>
     );
 }

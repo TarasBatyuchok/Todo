@@ -4,7 +4,7 @@ import UserInfo from './UserInfo/UserInfo'
 import classes from "./UserContainer.module.css"
 
 // redux
-import {UserAPI} from "../../API/userAPI";
+// import {UserAPI} from "../../API/userAPI";
 import { useDispatch, useSelector } from 'react-redux';
 
 import fetchUsers from "../../../redux/userReducer/userAction";
